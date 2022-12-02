@@ -8,4 +8,5 @@ setx AWS_BUCKET mybucket-2022-dev
 setx AWS_REGION us-east-1
 setx AWS_PROFILE default
 setx JWT_SECRET testing
-setx URL http://localhost:8081
+setx URL http://localhost:8100
+YOUR
