@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: env-config
+  labels:
+    name: env-config
+data:
+  POSTGRES_HOST: cdr02.cfclucectl4j.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: cdr02
+  AWS_BUCKET: mybucket-2022-dev
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
+  JWT_SECRET: udagramnghiatd5dev
+  URL: http://localhost:8080
